@@ -1,0 +1,37 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+
+.sidebar_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid lightgrey;
+}
+
+.sidebar_headerRight {
+    display: flex;
+    flex: 0.6;
+    justify-content: flex-end;
+}
+
+.sidebar_headerLeft {
+    display: flex;
+    flex: 0.4;
+}
+
+.icon {
+    font-size: 25px !important;
+    margin-right: 2vw;
+    color: grey;
+    cursor: pointer;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
