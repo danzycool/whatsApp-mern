@@ -5,7 +5,7 @@
 }
 
 .chat_header {
-    padding: 20px;
+    padding: 14px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid lightgray;
@@ -76,6 +76,7 @@
 
 .chat_footer > form > input {
     flex: 1;
+    outline-width: 0;
     border-radius: 30px;
     padding: 10px;
     border: none;

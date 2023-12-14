@@ -5,7 +5,7 @@ const SidebarChat = () => {
   return (
     <div className="sidebarChat">
       <div>
-        <img src="./images/1.jpg" className="avatar" alt="display pix" />
+        <img src="./images/2.jpg" className="avatar" alt="display pix" />
       </div>
       <div className="sidebarChat_info">
         <h2>Room name</h2>
